@@ -1,0 +1,22 @@
+﻿
+
+
+table, th, td {            
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+#result table th {
+        background-color: lightblue;
+    }
+
+#result table tr:nth-child(odd) {
+        background-color: #f1f1f1;
+    }
+
+#result table tr:nth-child(even) {
+        background-color: #ffffff;
+    }
+
+.smallCell {width:95px; height:25px;}
+   
